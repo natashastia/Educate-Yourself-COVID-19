@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PBO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+                Console.WriteLine("Masukkan username");
+                string nama = Console.ReadLine();
+                Console.WriteLine($"Halo{nama}");
+                Console.ReadLine();
+
+                Console.WriteLine("Masukkan password");
+                string pass = Console.ReadLine();
+                Console.WriteLine($"Halo{nama}");
+                Console.ReadLine();
+
+                Console.WriteLine("Akun kamu berhasil dibuat");
+        }
+    }
+}
